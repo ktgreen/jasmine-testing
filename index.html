@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Jasmine Testing</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css">
+    <!-- Jasmine CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css" type="text/css">
 
 </head>
 <body>
-     <!-- Load Jasmine Framework -->
+
+    <!-- Jasmine JS files -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js"></script>
-    
 
-    <!-- Load scripts -->
-    <script type="text/javascript" src="scripts/calc.js"></script>
+    <!-- Your Source Code (this must come before the tests!) -->
+    <script src="scripts/calc.js"></script>
 
-    <!-- Load Tests -->
-    <script type="text/javascript" src="spec/calcSpec.js"></script>
+    <!-- Specifications (this must come after the source code!) -->
+    <script src="spec/calcSpec.js"></script>
+
 </body>
-
 </html>
